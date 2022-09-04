@@ -119,16 +119,20 @@ p {
 		display: flex;
 		flex-direction: row-reverse;
 		max-width: 70em;
-		max-height: 26.4em; 
+		height: 29em;
 	}
 
 	.card-header, .card-body {
 		width: 50%;
 	}
 
+	.card-header {
+		background: url('images/image-header-desktop.jpg');
+		background-size: cover;
+	}
+
 	.card-image {
-		height: 100%;
-		width: auto;
+		display: none;
 	}
 	
 	.card-body {
